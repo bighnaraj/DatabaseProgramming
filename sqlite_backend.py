@@ -47,8 +47,7 @@ def update(id,title,author,year,isbn):
     conn.close()
 
 connect()
-delete(2)
-insert("Titanic","Jogn harry",1888,813056789)
-print(view())
-print(search(title="Titanic"))
+#delete(2)
+#insert("Titanic","Jogn harry",1888,813056789)
+#print(view())
 
